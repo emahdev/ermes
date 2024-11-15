@@ -7687,7 +7687,7 @@ blockquote cite {
 }
 
 footer {
-    background: url(../images/footer.jpg) no-repeat fixed;
+    /* background: url(../images/footer.jpg) no-repeat fixed; */
     background-size: cover;
     padding: 60px 0 0;
 }
