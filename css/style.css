@@ -7899,3 +7899,10 @@ body.boxed-pattern .rev_slider {
 .no-overflow {
     overflow: hidden!important;
 }
+
+/* filtro para las imagenes de los slides */
+
+.rev-slidebg {
+    filter: brightness(0.6); /* Reduce el brillo para oscurecer */
+    -webkit-filter: brightness(0.6); /* Compatibilidad con navegadores más antiguos */
+}
