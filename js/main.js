@@ -88,67 +88,138 @@ function search_qoute() {
 /*
  * sidebar menu start
  */
-function sidebar_menu() {
-    var windowsize = jQuerywindow.width(),
-        jQuerynav = jQuery("nav"),
-        slide = {
-            clear: function () {
-                jQuerybody.removeClass('toggled');
-                jQuery('.overlay')
-                    .hide();
-                jQuery('.easy-sidebar-toggle')
-                    .prependTo("header");
-                jQuery('#search')
-                    .prependTo("body");
-                jQuery('.navbar.easy-sidebar')
-                    .removeClass('toggled');
-                jQuery('#navbar')
-                    .removeAttr("style");
-            },
-            start: function () {
-                jQuery('.overlay')
-                    .show();
-                jQuerybody.addClass('toggled');
-                jQueryhtml.addClass('easy-sidebar-active');
-                jQuerynav.addClass('easy-sidebar');
-                jQuery('.easy-sidebar-toggle')
-                    .prependTo(".easy-sidebar");
-                jQuery('#search')
-                    .prependTo("#navbar");
-                jQuery('#navbar')
-                    .height(jQuerywindow.height())
-                    .css({
-                        /*"overflow-y": "scroll"
-                        ,*/
+// function sidebar_menu() {
+//     var windowsize = jQuerywindow.width(),
+//         jQuerynav = jQuery("nav"),
+//         slide = {
+//             clear: function () {
+//                 jQuerybody.removeClass('toggled');
+//                 jQuery('.overlay')
+//                     .hide();
+//                 jQuery('.easy-sidebar-toggle')
+//                     .prependTo("header");
+//                 jQuery('#search')
+//                     .prependTo("body");
+//                 jQuery('.navbar.easy-sidebar')
+//                     .removeClass('toggled');
+//                 jQuery('#navbar')
+//                     .removeAttr("style");
+//             },
+//             start: function () {
+//                 jQuery('.overlay')
+//                     .show();
+//                 jQuerybody.addClass('toggled');
+//                 jQueryhtml.addClass('easy-sidebar-active');
+//                 jQuerynav.addClass('easy-sidebar');
+//                 jQuery('.easy-sidebar-toggle')
+//                     .prependTo(".easy-sidebar");
+//                 jQuery('#search')
+//                     .prependTo("#navbar");
+//                 jQuery('#navbar')
+//                     .height(jQuerywindow.height())
+//                     .css({
+//                         /*"overflow-y": "scroll"
+//                         ,*/
+//                         "padding-top": "60px"
+//                     });
+//             },
+//             remove: function () {
+//                 jQuerynav.removeClass('easy-sidebar');
+//             }
+//         };
+//     if (windowsize < 1003) {
+//         jQuerynav.addClass('easy-sidebar');
+//         jQuery('.easy-sidebar-toggle')
+//             .on("click", function (e) {
+//                 e.preventDefault();
+//                 if (jQuerybody.hasClass('toggled')) {
+//                     slide.clear();
+//                 } else {
+//                     slide.start();
+//                 }
+//             });
+//         jQueryhtml.on('swiperight', function () {
+//             slide.start();
+//         });
+//         jQueryhtml.on('swipeleft', function () {
+//             slide.clear();
+//         });
+//     } else {
+//         slide.clear();
+//         slide.remove();
+//     }
+// }
+
+
+
+// nuevo side bar
+jQuery(document).ready(function () {
+    function sidebar_menu() {
+        var windowsize = jQuery(window).width(),
+            jQuerynav = jQuery("nav"),
+            slide = {
+                clear: function () {
+                    jQuery("body").removeClass('toggled');
+                    jQuery('.overlay').hide();
+                    jQuery('.easy-sidebar-toggle').prependTo("header");
+                    jQuery('#search').prependTo("body");
+                    jQuery('.navbar.easy-sidebar').removeClass('toggled');
+                    jQuery('#navbar').removeAttr("style");
+                },
+                start: function () {
+                    jQuery('.overlay').show();
+                    jQuery("body").addClass('toggled');
+                    jQuery("html").addClass('easy-sidebar-active');
+                    jQuerynav.addClass('easy-sidebar');
+                    jQuery('.easy-sidebar-toggle').prependTo(".easy-sidebar");
+                    jQuery('#search').prependTo("#navbar");
+                    jQuery('#navbar').height(jQuery(window).height()).css({
                         "padding-top": "60px"
                     });
-            },
-            remove: function () {
-                jQuerynav.removeClass('easy-sidebar');
-            }
-        };
-    if (windowsize < 1003) {
-        jQuerynav.addClass('easy-sidebar');
-        jQuery('.easy-sidebar-toggle')
-            .on("click", function (e) {
+                },
+                remove: function () {
+                    jQuerynav.removeClass('easy-sidebar');
+                }
+            };
+
+        if (windowsize < 1003) {
+            jQuerynav.addClass('easy-sidebar');
+            jQuery('.easy-sidebar-toggle').on("click", function (e) {
                 e.preventDefault();
-                if (jQuerybody.hasClass('toggled')) {
+                if (jQuery("body").hasClass('toggled')) {
                     slide.clear();
                 } else {
                     slide.start();
                 }
             });
-        jQueryhtml.on('swiperight', function () {
-            slide.start();
-        });
-        jQueryhtml.on('swipeleft', function () {
+
+            // Cerrar el menú al hacer clic en un enlace
+            jQuery('.navbar a').on('click', function () {
+                if (jQuery("body").hasClass('toggled')) {
+                    slide.clear(); // Cierra el menú
+                }
+            });
+
+            jQuery("html").on('swiperight', function () {
+                slide.start();
+            });
+            jQuery("html").on('swipeleft', function () {
+                slide.clear();
+            });
+        } else {
             slide.clear();
-        });
-    } else {
-        slide.clear();
-        slide.remove();
+            slide.remove();
+        }
     }
-}
+
+    // Inicializar el menú
+    sidebar_menu();
+});
+
+
+
+
+
 /*
  * sidebar menu end
  */
