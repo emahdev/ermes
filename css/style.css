@@ -88,7 +88,9 @@
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);    
+    scroll-behavior: smooth;
+    
 }
 
 body::-webkit-scrollbar {
@@ -2326,7 +2328,7 @@ ul.vertical-images li:hover .button {
     .tp-caption.darnasmalltext,
     .darnasmalltext {
         font-weight: 400!important;
-        font-size: 60%!important;
+        font-size: 90%!important;
         line-height: 16px!important;
     }
     .tp-caption.darnaverylargetextprimary,
@@ -2343,7 +2345,7 @@ ul.vertical-images li:hover .button {
     }
     .darnamediumtext {
         font-weight: 400!important;
-        font-size: 60%!important;
+        font-size: 100%!important;
         line-height: 16px!important;
     }
     .tp-caption.darnalargeprimarybg,
@@ -2355,7 +2357,7 @@ ul.vertical-images li:hover .button {
     .tp-caption.darnasmalltext2,
     .darnasmalltext2 {
         font-weight: 400!important;
-        font-size: 60%!important;
+        font-size: 100%!important;
         line-height: 16px!important;
     }
 }
@@ -7906,3 +7908,7 @@ body.boxed-pattern .rev_slider {
     filter: brightness(0.6); /* Reduce el brillo para oscurecer */
     -webkit-filter: brightness(0.6); /* Compatibilidad con navegadores más antiguos */
 }
+
+
+
+
