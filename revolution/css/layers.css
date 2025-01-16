@@ -410,7 +410,7 @@ website:   	http://www.themepunch.com
 	background-color:rgba(235,235,235,1);
 	background-position:initial initial;
 	background-repeat:initial initial;
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 	height:3px;
@@ -524,7 +524,7 @@ website:   	http://www.themepunch.com
 .tp-caption.grassfloor,.grassfloor
 {
 	background-color:rgba(160,179,151,1);
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 	height:150px;
@@ -668,7 +668,7 @@ website:   	http://www.themepunch.com
 
 .tp-caption.roundedimage,.roundedimage
 {
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 }
@@ -755,7 +755,7 @@ website:   	http://www.themepunch.com
 {
 	background:#fff;
 	background-color:#fff;
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 	height:2px;
@@ -765,7 +765,7 @@ website:   	http://www.themepunch.com
 
 .tp-caption.Miami_nostyle,.Miami_nostyle
 {
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 }
@@ -821,7 +821,7 @@ website:   	http://www.themepunch.com
 .tp-caption.divideline30px_dark,.divideline30px_dark
 {
 	background-color:#333;
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 	height:2px;
@@ -832,7 +832,7 @@ website:   	http://www.themepunch.com
 .tp-caption.ellipse70px,.ellipse70px
 {
 	background-color:rgba(0,0,0,0.14902);
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-radius:50px 50px 50px 50px;
 	border-style:none;
 	border-width:0;
@@ -845,7 +845,7 @@ website:   	http://www.themepunch.com
 
 .tp-caption.arrowicon,.arrowicon
 {
-	border-color:#222;
+	border-color: #1A1A1A;
 	border-style:none;
 	border-width:0;
 	line-height:1px;

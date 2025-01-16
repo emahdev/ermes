@@ -591,7 +591,7 @@ img.tp-slider-alternative-image	{
 
 .tp-button.darkgrey,.tp-button.grey,
 .tp-button:hover.darkgrey,.tp-button:hover.grey,
-.purchase.darkgrey, .purchase:hover.darkgrey	{ background-color:#555; -webkit-box-shadow:  0px 3px 0px 0px #222;        -moz-box-shadow:   0px 3px 0px 0px #222;        box-shadow:   0px 3px 0px 0px #222}
+.purchase.darkgrey, .purchase:hover.darkgrey	{ background-color:#555; -webkit-box-shadow:  0px 3px 0px 0px  #1A1A1A;        -moz-box-shadow:   0px 3px 0px 0px  #1A1A1A;        box-shadow:   0px 3px 0px 0px  #1A1A1A}
 
 .tp-button.lightgrey, .tp-button:hover.lightgrey,
 .purchase.lightgrey, .purchase:hover.lightgrey	{ background-color:#888; -webkit-box-shadow:  0px 3px 0px 0px #555;        -moz-box-shadow:   0px 3px 0px 0px #555;        box-shadow:   0px 3px 0px 0px #555}

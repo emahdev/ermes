@@ -127,7 +127,7 @@ website:    http://www.themepunch.com
   position:absolute;
   background:#fff;  
   cursor: pointer;
-  border:5px solid #222;
+  border:5px solid  #1A1A1A;
   border-radius:50%;
   box-sizing:content-box;
   -webkit-perspective:400;
@@ -138,7 +138,7 @@ website:    http://www.themepunch.com
 }
 .hebe .tp-bullet:hover,
 .hebe .tp-bullet.selected {
-  background:#222;
+  background: #1A1A1A;
   border-color:#fff;
 }
 

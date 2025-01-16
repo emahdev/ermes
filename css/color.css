@@ -65,7 +65,7 @@ table.shop_table.cart tbody td.product-name .product-name-wrap .product-name-inn
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-    color: #D5943B;
+    color: #F4BE45;
 }
 
 .navigation-03.navbar-inverse,
@@ -132,11 +132,11 @@ h4.widget-title:after,
 .pagination > li + li > a:focus,
 .pagination li a.active,
 .pagination>li>a:hover {
-    background-color: #D5943B;
+    background-color: #F4BE45;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D5943B;
+    background-color: #F4BE45;
 }
 
 .shopping-cart-wrapper .widget_shopping_cart_content .widget_shopping_cart_icon>i.fa-shopping-cart+span,
@@ -167,7 +167,7 @@ body::-webkit-scrollbar-thumb {
 .feature-box:hover .feature-box-ico,
 .sidebar .tagcloud a:hover,
 .ui-slider .ui-slider-range {
-    background: #D5943B;
+    background: #F4BE45;
 }
 
 .navigation-03.navbar-inverse,
@@ -231,7 +231,7 @@ body::-webkit-scrollbar-thumb {
 .content-head:before,
 .content-head:after,
 .ui-slider .ui-slider-handle {
-    border-color: #D5943B;
+    border-color: #F4BE45;
 }
 
 .nav-tabs li.active:before,
@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 #accordion .panel-heading.actives a,
 .contact-form form input:focus,
 .contact-form form textarea:focus {
-    border-top-color: #D5943B;
+    border-top-color: #F4BE45;
 }
 
 .blog-inner article.format-quote .entry-c-quote blockquote,
@@ -249,7 +249,7 @@ body::-webkit-scrollbar-thumb {
 .entry-content blockquote,
 .comment-text blockquote,
 .entry-c-quote blockquote {
-    border-left-color: #D5943B;
+    border-left-color: #F4BE45;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -259,5 +259,5 @@ body::-webkit-scrollbar-thumb {
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
-    border-bottom-color: #D5943B;
+    border-bottom-color: #F4BE45;
 }
