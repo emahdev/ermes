@@ -148,6 +148,14 @@ textarea:focus {
     text-decoration: none;
 }
 
+/* Add SEO optimization styles */
+img {
+    alt: "Descriptive text for images";
+}
+
+a {
+    title: "Descriptive text for links";
+}
 
 /* -----------------------------------------------------------------------------PRELOADER ------------------ */
 
@@ -4423,7 +4431,8 @@ a#playVid i {
 /* -----------------------------------------------------------------------------HOME INFO AND PROJECTS ------------------ */
 
 .home-info2 {
-    background: #000 url(../images/bg/3.jpg) no-repeat center;
+    /* background: #000 url(../images/bg/3.jpg) no-repeat center; */
+    background-color: #1A1A1A;
     background-size: cover;
     padding: 95px 0;
 }
@@ -4435,7 +4444,7 @@ a#playVid i {
 
 .home-info2 h3 {
     color: #FFF;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 400;
     font-size: 32px;
     line-height: 1;
@@ -7246,7 +7255,7 @@ table.shop_table.customer_details td {
     border-radius: 0
 }
 
-.checkout #payment div.payment_box:after,
+checkout #payment div.payment_box:after,
 .checkout #payment div.payment_box:before {
     display: none
 }
@@ -7912,6 +7921,19 @@ body.boxed-pattern .rev_slider {
 
 
 
-.custom-structure h4, .home-info2 h4 {
+.custom-structure h3, .home-info2 h3 {
     margin: 39px 0 30px;
+    /* color: #FFF; */
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    display: inline-block;
+    margin: 0px 0px 26px;
+}
+
+
+
+.white-text {
+    color: white;
 }
