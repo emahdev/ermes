@@ -4675,7 +4675,7 @@ a#playVid i {
 /* -----------------------------------------------------------------------------MESSAGES ------------------ */
 
 #error-wrap {
-    background: #fff url(../images/404.jpg) no-repeat center;
+    background: #fff;
     background-size: cover;
 }
 #demo-wrap{    background: #fff url(../images/demo.jpg) no-repeat center;

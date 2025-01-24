@@ -596,39 +596,37 @@
 
 
     <div class="contact-form" id="contacto">
-        <form method="POST" enctype="multipart/form-data" id="contact-form" class="contact-form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content-head text-center text-uppercase">
-                            <h4>Contáctanos</h4>
-                            <p>Estamos aquí para ayudarte a hacer realidad tus proyectos</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-md-push-2">
-                                <form
-                                action="https://formspree.io/f/mnnjqwpw"
-                                method="POST"
-                              >
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input placeholder="Nombre" type="text" id="Name" name="name" required> </div>
-                                    <div class="col-md-6">
-                                        <input placeholder="Correo electrónico" type="email" id="email" name="email" required> </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <textarea placeholder="Mensaje" rows="10" cols="4" name="message" id="Message" required></textarea>
-                                        <button type="submit" class="bttn bttn-md btn-block">Enviar</button>
-                                    </div>
-                                </div>
-                            </form>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content-head text-center text-uppercase">
+                        <h4>Contáctanos</h4>
+                        <p>Estamos aquí para ayudarte a hacer realidad tus proyectos</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-2">
+                            <form
+                            action="https://formspree.io/f/mnnjqwpw"
+                            method="POST"
+                          >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input placeholder="Nombre" type="text" id="Name" name="name" required> </div>
+                                <div class="col-md-6">
+                                    <input placeholder="Correo electrónico" type="email" id="email" name="email" required> </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea placeholder="Mensaje" rows="10" cols="4" name="message" id="Message" required></textarea>
+                                    <button type="submit" class="bttn bttn-md btn-block">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 
 
@@ -662,32 +660,6 @@
             </div>
         </div>
     </footer>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-Search popup start
--- -- -- - -- -- -- - -- -- -- -- -->
-    <!-- <div id="search">
-        <button class="close" type="button"> <i aria-hidden="true" class="fa fa-times"></i></button>
-        <form>
-            <input placeholder="Type keyword(s) Here" type="search" value="" />
-            <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i></button>
-        </form>
-    </div> -->
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-Search popup end
--- -- -- - -- -- -- - -- -- -- -- -->
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-Search quote start
--- -- -- - -- -- -- - -- -- -- -- - -- -- -- -- -->
-    <div id="quote">
-        <button class="close" type="button"> <i aria-hidden="true" class="fa fa-times"></i></button>
-        <form>
-            <textarea placeholder="Type message here"></textarea>
-            <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-envelope"></i></button>
-        </form>
-    </div>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-Search quote end
--- -- -- - -- -- -- - -- -- -- -- -->
     <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
 back-to-top start
 -- -- -- - -- -- -- - -- -- -- -- -->
@@ -842,224 +814,12 @@ overlay div end
     </script>
     <!-- Main Javascript -->
     <!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-    <script src="js/jquery.style.switcher.js"></script>
     <script src="js/main.js"></script>
     <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
         !!WARINING THIS IS FOR DEMO ONLY YOU CAN DELETE IT 
          COLOR SWITCHER AND BOXED/WIDE VIEW STARTS
          -- -- -- - -- -- -- - -- -- -- -- -->
     <link href="css/color.css" rel="stylesheet" id="theme-switch">
-    <!-- <div id="colour-variations" class="sleep"> <a class="option-toggle"><i class="fa fa fa-cog  fa-spin" aria-hidden="true"></i></a>
-        <h3>Preset Colors</h3>
-        <ul>
-            <li>
-                <a data-theme="basic " href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="red" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="turquoise" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="blue" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="orange" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="yellow" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="pink" href="javascript: void(0);"></a>
-            </li>
-            <li>
-                <a data-theme="purple" href="javascript: void(0);"></a>
-            </li>
-        </ul>
-        <h3>Direction</h3>
-        <ul>
-            <li> <a data-theme="style-rtl" href="javascript: void(0);">RTL</a></li>
-            <li> <a data-theme="ltr" href="javascript: void(0);">LTR</a></li>
-        </ul>
-    </div> -->
-    <style>
-        #colour-variations li a[data-theme=style-rtl],
-        #colour-variations li a[data-theme=ltr] {
-            border: 1px solid #ccc;
-            padding: 10px;
-            width: auto;
-            height: auto;
-        }
-        
-        #colour-variations {
-            padding: 10px;
-            -webkit-transition: 0.5s;
-            -o-transition: 0.5s;
-            transition: 0.5s;
-            width: 140px;
-            position: fixed;
-            left: 0;
-            top: 160px;
-            z-index: 999999;
-            background: #fff;
-            border-radius: 4px;
-            border-top-right-radius: 4px;
-            border-bottom-right-radius: 4px;
-            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-        }
-        
-        #colour-variations.sleep {
-            margin-left: -140px;
-        }
-        
-        #colour-variations h3 {
-            text-align: center;
-            ;
-            font-size: 11px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: #777;
-            margin: 0 0 10px 0;
-            padding: 0;
-            ;
-        }
-        
-        #colour-variations ul,
-        #colour-variations ul li {
-            padding: 0;
-            margin: 0;
-        }
-        
-        #colour-variations ul {
-            margin-bottom: 20px;
-            float: left;
-        }
-        
-        #colour-variations li {
-            list-style: none;
-            display: inline;
-        }
-        
-        #colour-variations li a {
-            width: 20px;
-            height: 20px;
-            position: relative;
-            float: left;
-            margin: 5px;
-        }
-        
-        #colour-variations li a[data-theme=style] {
-            background: #fff;
-            border: 1px solid #ccc
-        }
-        
-        #colour-variations li a[data-theme=red] {
-            background: #FA5555;
-        }
-        
-        #colour-variations li a[data-theme=turquoise] {
-            background: #27E1CE;
-        }
-        
-        #colour-variations li a[data-theme=blue] {
-            background: #2772DB;
-        }
-        
-        #colour-variations li a[data-theme=orange] {
-            background: #FF7844;
-        }
-        
-        #colour-variations li a[data-theme=yellow] {
-            background: #FCDA05;
-        }
-        
-        #colour-variations li a[data-theme=pink] {
-            background: rgb(251, 137, 155);
-        }
-        
-        #colour-variations li a[data-theme=purple] {
-            background: #7045FF;
-        }
-        
-        #colour-variations a[data-layout=boxed],
-        #colour-variations a[data-layout=wide] {
-            padding: 2px 0;
-            width: 48%;
-            border: 1px solid #ededed;
-            text-align: center;
-            color: #777;
-            display: block;
-        }
-        
-        #colour-variations a[data-layout=boxed]:hover,
-        #colour-variations a[data-layout=wide]:hover {
-            border: 1px solid #777;
-        }
-        
-        #colour-variations a[data-layout=boxed] {
-            float: left;
-        }
-        
-        #colour-variations a[data-layout=wide] {
-            float: right;
-        }
-        
-        .option-toggle {
-            position: absolute;
-            right: 0;
-            top: 0;
-            margin-top: 5px;
-            margin-right: -30px;
-            width: 30px;
-            height: 30px;
-            background: #8dc63f;
-            text-align: center;
-            border-top-right-radius: 4px;
-            border-bottom-right-radius: 4px;
-            color: #fff;
-            cursor: pointer;
-            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
-        }
-        
-        .option-toggle i {
-            top: 5px;
-            position: relative;
-            font-size: 20px;
-        }
-        
-        .option-toggle:hover,
-        .option-toggle:focus,
-        .option-toggle:active {
-            color: #fff;
-            text-decoration: none;
-            outline: none;
-        }
-    </style>
-    <script>
-        jQuery(function () {
-            jQuery('#colour-variations ul').styleSwitcher({
-                defaultThemeId: 'theme-switch'
-                , hasPreview: false
-                , cookie: {
-                    expires: 30
-                    , isManagingLoad: true
-                }
-            });
-            jQuery('.option-toggle').click(function () {
-                jQuery('#colour-variations').toggleClass('sleep');
-            });
-            if (jQuery.cookie('layoutCookie') != '') {
-                jQuery('body').addClass(jQuery.cookie('layoutCookie'));
-            }
-        });
-    </script>
     <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
         !!WARINING THIS IS FOR DEMO ONLY YOU CAN DELETE IT 
          COLOR SWITCHER AND BOXED/WIDE VIEW END
